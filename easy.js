@@ -1,3 +1,8 @@
+//  easyHttp library
+//  Library for making request
+// *** @version 2.0.0
+// *** @author dumto imoh
+
 class AcuteFetch {
   async get(url) {
     const res = await fetch(url);
